@@ -6295,7 +6295,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M03" device="LOCK" value="SensorRechts"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="Supply"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="I2C"/>
-<part name="JP9" library="SparkFun-Connectors" deviceset="M07" device="" value="Tast"/>
 </parts>
 <sheets>
 <sheet>
@@ -6361,7 +6360,6 @@ am Ende Stecker</text>
 <instance part="JP7" gate="G$1" x="-83.82" y="40.64"/>
 <instance part="JP13" gate="G$1" x="30.48" y="142.24" rot="R270"/>
 <instance part="JP14" gate="G$1" x="58.42" y="144.78" rot="R270"/>
-<instance part="JP9" gate="G$1" x="127" y="132.08" rot="R180"/>
 </instances>
 <busses>
 </busses>

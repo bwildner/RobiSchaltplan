@@ -6327,7 +6327,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 braun     GND
 schwarz  5V</text>
 <text x="25.4" y="132.08" size="1.778" layer="91">GND</text>
-<text x="35.56" y="134.62" size="1.778" layer="91">7V !!!!</text>
+<text x="35.56" y="134.62" size="1.778" layer="91">5V !!!!</text>
 <text x="68.58" y="139.7" size="1.778" layer="91">I2C
 Kabel auf Platine gelötet
 am Ende Stecker
@@ -6356,7 +6356,7 @@ schwarz  SDA</text>
 <instance part="R1" gate="G$1" x="203.2" y="73.66" rot="R90"/>
 <instance part="LED2_BATT_LOW" gate="G$1" x="215.9" y="91.44" rot="R180"/>
 <instance part="R2" gate="G$1" x="215.9" y="73.66" rot="R90"/>
-<instance part="R3" gate="G$1" x="48.26" y="124.46"/>
+<instance part="R3" gate="G$1" x="48.26" y="119.38"/>
 <instance part="R4" gate="G$1" x="48.26" y="129.54"/>
 <instance part="JP8" gate="G$1" x="-101.6" y="104.14"/>
 <instance part="JP10" gate="G$1" x="116.84" y="66.04" rot="R180"/>
@@ -6365,7 +6365,7 @@ schwarz  SDA</text>
 <instance part="JP6" gate="G$1" x="-83.82" y="63.5"/>
 <instance part="JP7" gate="G$1" x="-83.82" y="40.64"/>
 <instance part="JP13" gate="G$1" x="30.48" y="142.24" rot="R270"/>
-<instance part="JP14" gate="G$1" x="58.42" y="144.78" rot="R270"/>
+<instance part="JP14" gate="G$1" x="58.42" y="142.24" rot="R270"/>
 <instance part="JP9" gate="G$1" x="129.54" y="66.04" rot="R180"/>
 </instances>
 <busses>
@@ -6528,9 +6528,9 @@ schwarz  SDA</text>
 <wire x1="38.1" y1="88.9" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="124.46" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="124.46" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="119.38" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="119.38" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <junction x="38.1" y="129.54"/>
 <wire x1="-76.2" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="3"/>
@@ -6545,7 +6545,7 @@ schwarz  SDA</text>
 <pinref part="JP6" gate="G$1" pin="3"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
 <wire x1="-76.2" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
-<junction x="38.1" y="124.46"/>
+<junction x="38.1" y="119.38"/>
 <wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <junction x="38.1" y="66.04"/>
 </segment>
@@ -6587,15 +6587,15 @@ schwarz  SDA</text>
 <pinref part="JP2" gate="A" pin="7"/>
 <wire x1="66.04" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="58.42" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="101.6" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="101.6" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <junction x="60.96" y="101.6"/>
 <pinref part="JP11" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="124.46" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="119.38" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
-<junction x="60.96" y="124.46"/>
+<wire x1="60.96" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
+<junction x="60.96" y="119.38"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -6605,7 +6605,7 @@ schwarz  SDA</text>
 <wire x1="58.42" y1="55.88" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="104.14" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="129.54" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="129.54" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="129.54"/>
 <junction x="58.42" y="104.14"/>

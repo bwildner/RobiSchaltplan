@@ -6323,14 +6323,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="71.12" y="50.8" size="1.778" layer="91">A2</text>
 <text x="71.12" y="48.26" size="1.778" layer="91">A1</text>
 <text x="71.12" y="45.72" size="1.778" layer="91">A0</text>
-<text x="22.86" y="147.32" size="1.778" layer="91">zur Stromversorgung
-Kabel auf Platine gelötet
-am Ende Stecker</text>
+<text x="7.62" y="139.7" size="1.778" layer="91">Stecker
+braun     GND
+schwarz  5V</text>
 <text x="25.4" y="132.08" size="1.778" layer="91">GND</text>
 <text x="35.56" y="134.62" size="1.778" layer="91">7V !!!!</text>
-<text x="58.42" y="152.4" size="1.778" layer="91">I2C
+<text x="68.58" y="139.7" size="1.778" layer="91">I2C
 Kabel auf Platine gelötet
-am Ende Stecker</text>
+am Ende Stecker
+braun      SCL
+schwarz  SDA</text>
 <text x="-111.76" y="111.76" size="1.778" layer="91" rot="R180">I2C LCD
 4-GND
 3-5V

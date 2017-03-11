@@ -6338,6 +6338,9 @@ schwarz  SDA</text>
 3-5V
 2-SDA
 1-SCL</text>
+<text x="-111.76" y="86.36" size="1.778" layer="91" rot="R180">3-rot
+2-blau
+1-schwarz</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="15.24" y="55.88"/>
