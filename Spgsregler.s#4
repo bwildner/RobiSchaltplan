@@ -2080,12 +2080,18 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <sheets>
 <sheet>
 <plain>
-<text x="83.82" y="22.86" size="1.778" layer="91">MotorBoard</text>
+<text x="88.9" y="22.86" size="1.778" layer="91">MotorBoard</text>
 <text x="182.88" y="48.26" size="1.778" layer="91" rot="R90">Buchsenleiste 5V</text>
 <text x="182.88" y="12.7" size="1.778" layer="91" rot="R90">Buchsenleiste GND</text>
 <text x="-25.4" y="22.86" size="1.778" layer="91">AnalogIn
 BattSpg</text>
 <text x="114.3" y="96.52" size="1.778" layer="91">SpgsRegler</text>
+<text x="81.28" y="25.4" size="1.778" layer="91">12V</text>
+<text x="81.28" y="22.86" size="1.778" layer="91">GND</text>
+<text x="81.28" y="20.32" size="1.778" layer="91">5V</text>
+<text x="129.54" y="101.6" size="1.778" layer="91" rot="R270">12V</text>
+<text x="134.62" y="96.52" size="1.778" layer="91" rot="R90">GND</text>
+<text x="137.16" y="96.52" size="1.778" layer="91" rot="MR90">5V</text>
 </plain>
 <instances>
 <instance part="G1_NIMH" gate="G$1" x="43.18" y="25.4" rot="R90"/>
