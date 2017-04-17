@@ -6330,7 +6330,7 @@ schwarz  5V</text>
 <text x="35.56" y="134.62" size="1.778" layer="91">5V !!!!</text>
 <text x="68.58" y="139.7" size="1.778" layer="91">I2C
 Kabel auf Platine gelötet
-am Ende Stecker
+am Ende Buchse
 braun      SCL
 schwarz  SDA</text>
 <text x="-111.76" y="111.76" size="1.778" layer="91" rot="R180">I2C LCD
