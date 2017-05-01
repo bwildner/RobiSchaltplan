@@ -3250,32 +3250,32 @@ Low profile connectors, straight&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="50.8" size="1.778" layer="91">0</text>
-<text x="101.6" y="53.34" size="1.778" layer="91">1</text>
-<text x="101.6" y="55.88" size="1.778" layer="91">2</text>
-<text x="101.6" y="58.42" size="1.778" layer="91">3</text>
-<text x="101.6" y="60.96" size="1.778" layer="91">4</text>
-<text x="101.6" y="63.5" size="1.778" layer="91">5</text>
-<text x="101.6" y="66.04" size="1.778" layer="91">6</text>
-<text x="101.6" y="68.58" size="1.778" layer="91">7</text>
+<text x="134.62" y="50.8" size="1.778" layer="91">0</text>
+<text x="134.62" y="53.34" size="1.778" layer="91">1</text>
+<text x="134.62" y="55.88" size="1.778" layer="91">2</text>
+<text x="134.62" y="58.42" size="1.778" layer="91">3</text>
+<text x="134.62" y="60.96" size="1.778" layer="91">4</text>
+<text x="134.62" y="63.5" size="1.778" layer="91">5</text>
+<text x="134.62" y="66.04" size="1.778" layer="91">6</text>
+<text x="134.62" y="68.58" size="1.778" layer="91">7</text>
 <text x="266.065" y="128.905" size="1.778" layer="91">8</text>
 <text x="266.065" y="131.445" size="1.778" layer="91">9</text>
 <text x="266.065" y="133.985" size="1.778" layer="91">10</text>
 <text x="266.065" y="136.525" size="1.778" layer="91">11</text>
 <text x="266.065" y="139.065" size="1.778" layer="91">12</text>
 <text x="266.065" y="141.605" size="1.778" layer="91">13</text>
-<text x="-8.89" y="43.815" size="1.778" layer="91">15</text>
-<text x="-8.89" y="41.275" size="1.778" layer="91">16</text>
-<text x="-8.89" y="38.735" size="1.778" layer="91">17</text>
-<text x="-8.89" y="36.195" size="1.778" layer="91">18</text>
-<text x="-8.89" y="33.655" size="1.778" layer="91">19</text>
-<text x="-8.89" y="31.115" size="1.778" layer="91">20</text>
-<text x="-8.89" y="28.575" size="1.778" layer="91">21</text>
-<text x="-8.89" y="46.355" size="1.778" layer="91">14</text>
-<text x="85.09" y="57.15" size="1.6764" layer="91">pwm</text>
+<text x="-52.07" y="43.815" size="1.778" layer="91">15</text>
+<text x="-52.07" y="41.275" size="1.778" layer="91">16</text>
+<text x="-52.07" y="38.735" size="1.778" layer="91">17</text>
+<text x="-52.07" y="36.195" size="1.778" layer="91">18</text>
+<text x="-52.07" y="33.655" size="1.778" layer="91">19</text>
+<text x="-52.07" y="31.115" size="1.778" layer="91">20</text>
+<text x="-52.07" y="28.575" size="1.778" layer="91">21</text>
+<text x="-52.07" y="46.355" size="1.778" layer="91">14</text>
+<text x="118.11" y="57.15" size="1.6764" layer="91">pwm</text>
 <text x="248.92" y="132.08" size="1.6764" layer="91">pwm</text>
 <text x="248.92" y="129.54" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="59.69" size="1.6764" layer="91">pwm</text>
+<text x="118.11" y="59.69" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="57.15" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="54.61" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="52.07" size="1.6764" layer="91">pwm</text>
@@ -3316,42 +3316,42 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-166.37" y="127.635" size="1.778" layer="91">42</text>
 <text x="-166.37" y="125.095" size="1.778" layer="91">40</text>
 <text x="-166.37" y="122.555" size="1.778" layer="91">38</text>
-<text x="86.36" y="121.92" size="1.778" layer="91">5V</text>
-<text x="86.36" y="119.38" size="1.778" layer="91">GND</text>
-<text x="86.36" y="116.84" size="1.778" layer="91">GND</text>
+<text x="119.38" y="121.92" size="1.778" layer="91">5V</text>
+<text x="119.38" y="119.38" size="1.778" layer="91">GND</text>
+<text x="119.38" y="116.84" size="1.778" layer="91">GND</text>
 <text x="63.5" y="139.7" size="1.778" layer="91">GND</text>
 <text x="53.34" y="139.7" size="1.778" layer="91">5V</text>
-<text x="86.36" y="114.3" size="1.778" layer="91">Vin</text>
-<text x="86.36" y="124.46" size="1.778" layer="91">3,3V</text>
-<text x="86.36" y="127" size="1.778" layer="91">Reset</text>
-<text x="86.36" y="129.54" size="1.778" layer="91">IORef</text>
-<text x="86.36" y="132.08" size="1.778" layer="91">NC</text>
-<text x="101.6" y="78.74" size="1.778" layer="91">8</text>
-<text x="101.6" y="81.28" size="1.778" layer="91">9</text>
-<text x="101.6" y="83.82" size="1.778" layer="91">10</text>
-<text x="101.6" y="86.36" size="1.778" layer="91">11</text>
-<text x="101.6" y="88.9" size="1.778" layer="91">12</text>
-<text x="116.84" y="60.96" size="1.778" layer="91">motLinks PWM</text>
-<text x="116.84" y="63.5" size="1.778" layer="91">motLinks vorw</text>
-<text x="116.84" y="66.04" size="1.778" layer="91">motLinks rückw</text>
-<text x="116.84" y="68.58" size="1.778" layer="91">motRechts vorw</text>
-<text x="116.84" y="78.74" size="1.778" layer="91">motRechts rückw</text>
-<text x="116.84" y="81.28" size="1.778" layer="91">motRechts PWM</text>
-<text x="15.24" y="27.94" size="1.778" layer="91">SCL</text>
-<text x="15.24" y="30.48" size="1.778" layer="91">SDA</text>
+<text x="119.38" y="114.3" size="1.778" layer="91">Vin</text>
+<text x="119.38" y="124.46" size="1.778" layer="91">3,3V</text>
+<text x="119.38" y="127" size="1.778" layer="91">Reset</text>
+<text x="119.38" y="129.54" size="1.778" layer="91">IORef</text>
+<text x="119.38" y="132.08" size="1.778" layer="91">NC</text>
+<text x="134.62" y="78.74" size="1.778" layer="91">8</text>
+<text x="134.62" y="81.28" size="1.778" layer="91">9</text>
+<text x="134.62" y="83.82" size="1.778" layer="91">10</text>
+<text x="134.62" y="86.36" size="1.778" layer="91">11</text>
+<text x="134.62" y="88.9" size="1.778" layer="91">12</text>
+<text x="149.86" y="60.96" size="1.778" layer="91">motLinks PWM</text>
+<text x="149.86" y="63.5" size="1.778" layer="91">motLinks vorw</text>
+<text x="149.86" y="66.04" size="1.778" layer="91">motLinks rückw</text>
+<text x="149.86" y="68.58" size="1.778" layer="91">motRechts vorw</text>
+<text x="149.86" y="78.74" size="1.778" layer="91">motRechts rückw</text>
+<text x="149.86" y="81.28" size="1.778" layer="91">motRechts PWM</text>
+<text x="-45.72" y="27.94" size="1.778" layer="91">SCL</text>
+<text x="-45.72" y="30.48" size="1.778" layer="91">SDA</text>
 <text x="45.72" y="43.18" size="1.778" layer="91">wakeup</text>
 <text x="45.72" y="45.72" size="1.778" layer="91">Vcc</text>
 <text x="45.72" y="48.26" size="1.778" layer="91">GND</text>
 <text x="45.72" y="50.8" size="1.778" layer="91">TX</text>
 <text x="45.72" y="53.34" size="1.778" layer="91">RX</text>
 <text x="45.72" y="55.88" size="1.778" layer="91">State</text>
-<text x="-5.08" y="33.02" size="1.778" layer="91">RX</text>
-<text x="-5.08" y="35.56" size="1.778" layer="91">TX</text>
+<text x="-48.26" y="33.02" size="1.778" layer="91">RX</text>
+<text x="-48.26" y="35.56" size="1.778" layer="91">TX</text>
 <text x="55.88" y="152.4" size="1.778" layer="91">Buchse</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
-<instance part="JP5" gate="G$1" x="40.64" y="30.48" rot="R180"/>
+<instance part="JP5" gate="G$1" x="-27.94" y="17.78" rot="R90"/>
 <instance part="JP6" gate="G$1" x="38.1" y="50.8" rot="R180"/>
 <instance part="SV1" gate="1" x="15.24" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="19.05" y="124.46" size="1.778" layer="96" rot="R180"/>
@@ -3363,17 +3363,17 @@ Low profile connectors, straight&lt;p&gt;
 </instance>
 <instance part="JP7" gate="G$1" x="58.42" y="147.32" rot="R270"/>
 <instance part="JP8" gate="G$1" x="-45.72" y="101.6"/>
-<instance part="PWML" gate="A" x="99.06" y="60.96" smashed="yes" rot="MR180">
-<attribute name="NAME" x="108.585" y="60.325" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="73.66" size="1.778" layer="96" rot="MR180"/>
+<instance part="PWML" gate="A" x="132.08" y="60.96" smashed="yes" rot="MR180">
+<attribute name="NAME" x="141.605" y="60.325" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="125.73" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="ADCL" gate="A" x="261.62" y="48.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="271.145" y="50.165" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="50.8" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="125.73" y="50.8" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="COMMUNICATION" gate="A" x="-10.16" y="38.1" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-0.635" y="38.1" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-16.51" y="50.8" size="1.778" layer="96" rot="MR180"/>
+<instance part="COMMUNICATION" gate="A" x="-53.34" y="38.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-43.815" y="38.1" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-59.69" y="50.8" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP11" gate="A" x="261.62" y="142.24"/>
 <instance part="GND2" gate="1" x="-127" y="142.24" smashed="yes">
@@ -3390,13 +3390,13 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="GND4" gate="1" x="-175.26" y="147.32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-172.72" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="POWER" gate="A" x="99.06" y="121.92" smashed="yes">
-<attribute name="NAME" x="102.87" y="122.555" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.71" y="109.22" size="1.778" layer="96"/>
+<instance part="POWER" gate="A" x="132.08" y="121.92" smashed="yes">
+<attribute name="NAME" x="135.89" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="125.73" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="PWMH" gate="A" x="99.06" y="88.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="108.585" y="88.265" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="101.6" size="1.778" layer="96" rot="MR180"/>
+<instance part="PWMH" gate="A" x="132.08" y="88.9" smashed="yes" rot="MR180">
+<attribute name="NAME" x="141.605" y="88.265" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="125.73" y="101.6" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -3520,16 +3520,16 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="35.56" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="88.9" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="76.2" y="59.055" size="1.778" layer="95"/>
+<wire x1="66.04" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="109.22" y="59.055" size="1.778" layer="95"/>
 <pinref part="PWML" gate="A" pin="4"/>
 <pinref part="SV2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="PE4" class="0">
 <segment>
-<wire x1="53.34" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<label x="76.2" y="56.515" size="1.778" layer="95"/>
+<wire x1="53.34" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="109.22" y="56.515" size="1.778" layer="95"/>
 <pinref part="PWML" gate="A" pin="3"/>
 <wire x1="20.32" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
@@ -3559,29 +3559,29 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="RXD2" class="0">
 <segment>
-<wire x1="-30.48" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
-<label x="-28.575" y="38.735" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="38.1" x2="-55.88" y2="38.1" width="0.1524" layer="91"/>
+<label x="-71.755" y="38.735" size="1.778" layer="95"/>
 <pinref part="COMMUNICATION" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="RXD3" class="0">
 <segment>
-<wire x1="-30.48" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
-<label x="-28.575" y="43.815" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
+<label x="-71.755" y="43.815" size="1.778" layer="95"/>
 <pinref part="COMMUNICATION" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="TXD2" class="0">
 <segment>
-<wire x1="-30.48" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-<label x="-28.575" y="41.275" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="40.64" x2="-55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="-71.755" y="41.275" size="1.778" layer="95"/>
 <pinref part="COMMUNICATION" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="TXD3" class="0">
 <segment>
-<wire x1="-12.7" y1="45.72" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="-28.575" y="46.355" size="1.778" layer="95"/>
+<wire x1="-55.88" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="91"/>
+<label x="-71.755" y="46.355" size="1.778" layer="95"/>
 <pinref part="COMMUNICATION" gate="A" pin="8"/>
 </segment>
 </net>
@@ -3966,21 +3966,21 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$2" class="2">
 <segment>
-<wire x1="96.52" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="119.38" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<junction x="76.2" y="116.84"/>
+<wire x1="129.54" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="119.38" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<junction x="109.22" y="116.84"/>
 <pinref part="POWER" gate="A" pin="6"/>
 <pinref part="POWER" gate="A" pin="7"/>
 <wire x1="60.96" y1="139.7" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="7.62" y1="116.84" x2="2.54" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="116.84" x2="2.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="106.68" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="106.68" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="116.84" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="106.68" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
@@ -3999,57 +3999,58 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="99.06" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="99.06" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="99.06" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="63.5" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="99.06" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="99.06" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="99.06" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="-10.16" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="27.94" x2="-30.48" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="-10.16" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="30.48" x2="-27.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="30.48" x2="-27.94" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="-10.16" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="33.02" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="-10.16" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -4057,7 +4058,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="N$9" class="3">
 <segment>
 <pinref part="POWER" gate="A" pin="5"/>
-<wire x1="96.52" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="121.92" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>

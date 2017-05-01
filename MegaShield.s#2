@@ -3347,11 +3347,13 @@ Low profile connectors, straight&lt;p&gt;
 <text x="45.72" y="55.88" size="1.778" layer="91">State</text>
 <text x="-48.26" y="33.02" size="1.778" layer="91">RX</text>
 <text x="-48.26" y="35.56" size="1.778" layer="91">TX</text>
-<text x="55.88" y="152.4" size="1.778" layer="91">Buchse</text>
 <text x="-33.02" y="2.54" size="1.778" layer="91">I2C
 Buchse
 braun      SCL
 schwarz  SDA</text>
+<text x="68.58" y="144.78" size="1.778" layer="91">Buchse
+braun     GND
+schwarz  5V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>

@@ -3348,7 +3348,10 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-48.26" y="33.02" size="1.778" layer="91">RX</text>
 <text x="-48.26" y="35.56" size="1.778" layer="91">TX</text>
 <text x="55.88" y="152.4" size="1.778" layer="91">Buchse</text>
-<text x="-33.02" y="10.16" size="1.778" layer="91">Buchse</text>
+<text x="-33.02" y="2.54" size="1.778" layer="91">I2C
+Buchse
+braun      SCL
+schwarz  SDA</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
@@ -4068,4 +4071,10 @@ Low profile connectors, straight&lt;p&gt;
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

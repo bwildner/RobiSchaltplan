@@ -2811,18 +2811,19 @@ Low profile connectors, straight&lt;p&gt;
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="POWER" library="SmartPrj" deviceset="PINHD-1X8" device="" value="8x1F-H8.5"/>
+<part name="PWMH" library="SmartPrj" deviceset="PINHD-1X8" device="" value="8x1F-H8.5"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="81.28" size="1.778" layer="91">0</text>
-<text x="101.6" y="83.82" size="1.778" layer="91">1</text>
-<text x="101.6" y="86.36" size="1.778" layer="91">2</text>
-<text x="101.6" y="88.9" size="1.778" layer="91">3</text>
-<text x="101.6" y="91.44" size="1.778" layer="91">4</text>
-<text x="101.6" y="93.98" size="1.778" layer="91">5</text>
-<text x="101.6" y="96.52" size="1.778" layer="91">6</text>
-<text x="101.6" y="99.06" size="1.778" layer="91">7</text>
+<text x="101.6" y="50.8" size="1.778" layer="91">0</text>
+<text x="101.6" y="53.34" size="1.778" layer="91">1</text>
+<text x="101.6" y="55.88" size="1.778" layer="91">2</text>
+<text x="101.6" y="58.42" size="1.778" layer="91">3</text>
+<text x="101.6" y="60.96" size="1.778" layer="91">4</text>
+<text x="101.6" y="63.5" size="1.778" layer="91">5</text>
+<text x="101.6" y="66.04" size="1.778" layer="91">6</text>
+<text x="101.6" y="68.58" size="1.778" layer="91">7</text>
 <text x="266.065" y="128.905" size="1.778" layer="91">8</text>
 <text x="266.065" y="131.445" size="1.778" layer="91">9</text>
 <text x="266.065" y="133.985" size="1.778" layer="91">10</text>
@@ -2837,14 +2838,10 @@ Low profile connectors, straight&lt;p&gt;
 <text x="262.89" y="86.995" size="1.778" layer="91">20</text>
 <text x="262.89" y="84.455" size="1.778" layer="91">21</text>
 <text x="262.89" y="102.235" size="1.778" layer="91">14</text>
-<text x="85.09" y="100.33" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="97.79" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="87.63" size="1.6764" layer="91">pwm</text>
+<text x="85.09" y="57.15" size="1.6764" layer="91">pwm</text>
 <text x="248.92" y="132.08" size="1.6764" layer="91">pwm</text>
 <text x="248.92" y="129.54" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="95.25" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="92.71" size="1.6764" layer="91">pwm</text>
-<text x="85.09" y="90.17" size="1.6764" layer="91">pwm</text>
+<text x="85.09" y="59.69" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="57.15" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="54.61" size="1.6764" layer="91">pwm</text>
 <text x="-128.27" y="52.07" size="1.6764" layer="91">pwm</text>
@@ -2885,11 +2882,21 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-166.37" y="127.635" size="1.778" layer="91">42</text>
 <text x="-166.37" y="125.095" size="1.778" layer="91">40</text>
 <text x="-166.37" y="122.555" size="1.778" layer="91">38</text>
-<text x="88.9" y="121.92" size="1.778" layer="91">5V</text>
+<text x="86.36" y="121.92" size="1.778" layer="91">5V</text>
 <text x="86.36" y="119.38" size="1.778" layer="91">GND</text>
 <text x="86.36" y="116.84" size="1.778" layer="91">GND</text>
 <text x="45.72" y="121.92" size="1.778" layer="91">GND</text>
 <text x="53.34" y="119.38" size="1.778" layer="91">5V</text>
+<text x="86.36" y="114.3" size="1.778" layer="91">Vin</text>
+<text x="86.36" y="124.46" size="1.778" layer="91">3,3V</text>
+<text x="86.36" y="127" size="1.778" layer="91">Reset</text>
+<text x="86.36" y="129.54" size="1.778" layer="91">IORef</text>
+<text x="86.36" y="132.08" size="1.778" layer="91">NC</text>
+<text x="101.6" y="78.74" size="1.778" layer="91">8</text>
+<text x="101.6" y="81.28" size="1.778" layer="91">9</text>
+<text x="101.6" y="83.82" size="1.778" layer="91">10</text>
+<text x="101.6" y="86.36" size="1.778" layer="91">11</text>
+<text x="101.6" y="88.9" size="1.778" layer="91">12</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
@@ -2905,13 +2912,13 @@ Low profile connectors, straight&lt;p&gt;
 </instance>
 <instance part="JP7" gate="G$1" x="38.1" y="119.38"/>
 <instance part="JP8" gate="G$1" x="10.16" y="68.58"/>
-<instance part="PWML" gate="A" x="99.06" y="91.44" smashed="yes" rot="MR180">
-<attribute name="NAME" x="108.585" y="90.805" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="104.14" size="1.778" layer="96" rot="MR180"/>
+<instance part="PWML" gate="A" x="99.06" y="60.96" smashed="yes" rot="MR180">
+<attribute name="NAME" x="108.585" y="60.325" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="ADCL" gate="A" x="261.62" y="48.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="271.145" y="50.165" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="81.28" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="50.8" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="COMMUNICATION" gate="A" x="261.62" y="93.98" smashed="yes" rot="MR180">
 <attribute name="NAME" x="271.145" y="93.98" size="1.778" layer="95" rot="MR180"/>
@@ -2935,6 +2942,10 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="POWER" gate="A" x="99.06" y="121.92" smashed="yes">
 <attribute name="NAME" x="102.87" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="PWMH" gate="A" x="99.06" y="88.9" smashed="yes" rot="MR180">
+<attribute name="NAME" x="108.585" y="88.265" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="101.6" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -3064,50 +3075,29 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="PE5" class="0">
 <segment>
-<wire x1="96.52" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="89.535" size="1.778" layer="95"/>
+<wire x1="35.56" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="88.9" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="76.2" y="59.055" size="1.778" layer="95"/>
 <pinref part="PWML" gate="A" pin="4"/>
 <pinref part="SV2" gate="1" pin="2"/>
-<wire x1="66.04" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PE4" class="0">
 <segment>
-<wire x1="53.34" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.995" size="1.778" layer="95"/>
+<wire x1="53.34" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<label x="76.2" y="56.515" size="1.778" layer="95"/>
 <pinref part="PWML" gate="A" pin="3"/>
 <wire x1="20.32" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="109.22" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PE3" class="0">
-<segment>
-<wire x1="96.52" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<label x="76.2" y="94.615" size="1.778" layer="95"/>
-<pinref part="PWML" gate="A" pin="6"/>
+<wire x1="53.34" y1="109.22" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB6" class="0">
 <segment>
 <wire x1="259.08" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="PH3" class="0">
-<segment>
-<wire x1="96.52" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="76.835" y="97.155" size="1.778" layer="95"/>
-<pinref part="PWML" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="PH4" class="0">
-<segment>
-<wire x1="96.52" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.835" y="99.695" size="1.778" layer="95"/>
-<pinref part="PWML" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="PH5" class="0">
@@ -3122,13 +3112,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="238.76" y1="132.08" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
 <label x="240.03" y="132.715" size="1.778" layer="95"/>
 <pinref part="JP11" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="PG5" class="0">
-<segment>
-<wire x1="96.52" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<label x="76.835" y="92.075" size="1.778" layer="95"/>
-<pinref part="PWML" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="RXD1" class="0">
@@ -3579,6 +3562,26 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="2.54" y="106.68"/>
 <junction x="27.94" y="106.68"/>
 <junction x="43.18" y="106.68"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="99.06" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="99.06" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="99.06" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<wire x1="99.06" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
