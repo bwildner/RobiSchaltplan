@@ -5639,10 +5639,6 @@ Spgsregler</text>
 <pinref part="G1_NIMH" gate="G$1" pin="+"/>
 <wire x1="43.18" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="30.48" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5713,6 +5709,14 @@ Spgsregler</text>
 <wire x1="127" y1="25.4" x2="127" y2="5.08" width="0.1524" layer="91"/>
 <junction x="127" y="5.08"/>
 <wire x1="25.4" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="F3" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="30.48" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SL1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
