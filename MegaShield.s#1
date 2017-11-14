@@ -3354,6 +3354,10 @@ schwarz  SDA</text>
 <text x="68.58" y="144.78" size="1.778" layer="91">Stecker
 braun     GND
 schwarz  5V</text>
+<text x="-68.58" y="83.82" size="1.778" layer="91">ADC3</text>
+<text x="-68.58" y="91.44" size="1.778" layer="91">ADC0</text>
+<text x="-68.58" y="88.9" size="1.778" layer="91">ADC1</text>
+<text x="-68.58" y="86.36" size="1.778" layer="91">ADC2</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
@@ -3368,14 +3372,14 @@ schwarz  5V</text>
 <attribute name="NAME" x="31.75" y="80.518" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="JP7" gate="G$1" x="58.42" y="147.32" rot="R270"/>
-<instance part="JP8" gate="G$1" x="-45.72" y="101.6"/>
+<instance part="JP8" gate="G$1" x="-78.74" y="83.82"/>
 <instance part="PWML" gate="A" x="132.08" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="141.605" y="60.325" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="125.73" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="ADCL" gate="A" x="261.62" y="48.26" smashed="yes" rot="MR180">
-<attribute name="NAME" x="271.145" y="50.165" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="125.73" y="50.8" size="1.778" layer="96" rot="MR180"/>
+<instance part="ADCL" gate="A" x="-53.34" y="83.82" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-43.815" y="85.725" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-189.23" y="86.36" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="COMMUNICATION" gate="A" x="-53.34" y="38.1" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-43.815" y="38.1" size="1.778" layer="95" rot="MR180"/>
@@ -3438,62 +3442,6 @@ schwarz  5V</text>
 <wire x1="259.08" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <label x="241.3" y="147.32" size="1.778" layer="95"/>
 <pinref part="JP11" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="ADC0" class="0">
-<segment>
-<wire x1="259.08" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
-<label x="242.57" y="40.64" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="ADC2" class="0">
-<segment>
-<wire x1="259.08" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="242.57" y="45.72" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="ADC1" class="0">
-<segment>
-<wire x1="203.2" y1="40.64" x2="259.08" y2="40.64" width="0.1524" layer="91"/>
-<label x="242.57" y="43.18" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="ADC3" class="0">
-<segment>
-<wire x1="203.2" y1="45.72" x2="259.08" y2="45.72" width="0.1524" layer="91"/>
-<label x="242.57" y="48.26" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="4"/>
-</segment>
-</net>
-<net name="ADC4" class="0">
-<segment>
-<wire x1="259.08" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
-<label x="242.57" y="50.8" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="ADC5" class="0">
-<segment>
-<wire x1="203.2" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
-<label x="242.57" y="53.34" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="ADC6" class="0">
-<segment>
-<wire x1="203.2" y1="53.34" x2="259.08" y2="53.34" width="0.1524" layer="91"/>
-<label x="242.57" y="55.88" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="ADC7" class="0">
-<segment>
-<wire x1="259.08" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="242.57" y="58.42" size="1.778" layer="95" rot="MR180"/>
-<pinref part="ADCL" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -3561,34 +3509,6 @@ schwarz  5V</text>
 <wire x1="238.76" y1="132.08" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
 <label x="240.03" y="132.715" size="1.778" layer="95"/>
 <pinref part="JP11" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="RXD2" class="0">
-<segment>
-<wire x1="-73.66" y1="38.1" x2="-55.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="-71.755" y="38.735" size="1.778" layer="95"/>
-<pinref part="COMMUNICATION" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="RXD3" class="0">
-<segment>
-<wire x1="-73.66" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
-<label x="-71.755" y="43.815" size="1.778" layer="95"/>
-<pinref part="COMMUNICATION" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="TXD2" class="0">
-<segment>
-<wire x1="-73.66" y1="40.64" x2="-55.88" y2="40.64" width="0.1524" layer="91"/>
-<label x="-71.755" y="41.275" size="1.778" layer="95"/>
-<pinref part="COMMUNICATION" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="TXD3" class="0">
-<segment>
-<wire x1="-55.88" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="-71.755" y="46.355" size="1.778" layer="95"/>
-<pinref part="COMMUNICATION" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="PB7" class="0">
@@ -3956,7 +3876,8 @@ schwarz  5V</text>
 </net>
 <net name="N$1" class="3">
 <segment>
-<wire x1="58.42" y1="104.14" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="104.14" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="121.92" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="114.3" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="104.14" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
@@ -3968,6 +3889,10 @@ schwarz  5V</text>
 <wire x1="15.24" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <junction x="15.24" y="83.82"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="POWER" gate="A" pin="5"/>
+<wire x1="129.54" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="121.92" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<junction x="58.42" y="121.92"/>
 </segment>
 </net>
 <net name="N$2" class="2">
@@ -4061,11 +3986,10 @@ schwarz  5V</text>
 <wire x1="25.4" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="3">
+<net name="N$9" class="0">
 <segment>
-<pinref part="POWER" gate="A" pin="5"/>
-<wire x1="129.54" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="121.92" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="ADCL" gate="A" pin="5"/>
+<wire x1="-55.88" y1="83.82" x2="-73.66" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

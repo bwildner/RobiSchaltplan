@@ -3348,6 +3348,7 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-48.26" y="33.02" size="1.778" layer="91">RX</text>
 <text x="-48.26" y="35.56" size="1.778" layer="91">TX</text>
 <text x="55.88" y="152.4" size="1.778" layer="91">Buchse</text>
+<text x="-33.02" y="10.16" size="1.778" layer="91">Buchse</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
