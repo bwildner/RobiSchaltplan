@@ -1834,6 +1834,7 @@ design rules under a new name.</description>
 <element name="JP7" library="SparkFun-Connectors" package="1X03_LOCK" value="SensorRechts" x="29.21" y="71.12"/>
 <element name="JP13" library="SparkFun-Connectors" package="1X02_LOCK" value="Supply" x="44.45" y="6.35"/>
 <element name="JP14" library="SparkFun-Connectors" package="1X02_LOCK" value="I2C" x="54.61" y="6.35"/>
+<element name="JP9" library="SparkFun-Connectors" package="1X07" value="Tast" x="63.5" y="44.45" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1878,14 +1879,18 @@ design rules under a new name.</description>
 <contactref element="LED2_BATT_LOW" pad="K"/>
 <contactref element="S2_MENU" pad="2"/>
 <contactref element="S3_UP" pad="2"/>
+<contactref element="JP9" pad="1"/>
 <wire x1="72.39" y1="67.31" x2="87.122" y2="72.39" width="0" layer="19" extent="1-1"/>
 <wire x1="72.39" y1="49.53" x2="72.39" y2="67.31" width="0" layer="19" extent="1-1"/>
 <wire x1="87.122" y1="52.07" x2="72.39" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="87.122" y1="33.02" x2="87.122" y2="52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="87.122" y1="15.24" x2="87.122" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="44.45" x2="87.122" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R2" pad="1"/>
+<contactref element="JP9" pad="7"/>
+<wire x1="63.5" y1="29.21" x2="72.39" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="JP2" pad="12"/>
@@ -1942,18 +1947,28 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$26">
 <contactref element="S1_START" pad="1"/>
+<contactref element="JP9" pad="2"/>
+<wire x1="63.5" y1="41.91" x2="88.9" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="S2_MENU" pad="1"/>
+<contactref element="JP9" pad="3"/>
+<wire x1="63.5" y1="39.37" x2="88.9" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="S3_UP" pad="1"/>
+<contactref element="JP9" pad="4"/>
+<wire x1="63.5" y1="36.83" x2="88.9" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="S4_DOWN" pad="1"/>
+<contactref element="JP9" pad="5"/>
+<wire x1="63.5" y1="34.29" x2="88.9" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="R1" pad="1"/>
+<contactref element="JP9" pad="6"/>
+<wire x1="63.5" y1="31.75" x2="72.39" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="JP10" pad="7"/>

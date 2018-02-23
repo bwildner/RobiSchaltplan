@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -119,6 +120,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
@@ -6262,6 +6269,108 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FR-A4L">
+<rectangle x1="178.7652" y1="0" x2="179.3748" y2="20.32" layer="94"/>
+<rectangle x1="225.7552" y1="-26.67" x2="226.3648" y2="67.31" layer="94" rot="R90"/>
+<wire x1="225.29" y1="-0.1" x2="225.29" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="273.05" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="179.07" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="10.16" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="10.16" x2="273.05" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="15.24" x2="273.05" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="19.05" x2="179.07" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="179.07" y1="20.32" x2="180.34" y2="20.32" width="0.6096" layer="94"/>
+<text x="181.61" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="181.61" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="195.58" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="181.61" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="181.61" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="226.16" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="226.26" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="234.92" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="276.86" y2="182.88" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-A4L" prefix="FRAME">
+<description>&lt;b&gt;Schematic Frame-European Format&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Standard A4 size frame in Landscape</description>
+<gates>
+<gate name="G$1" symbol="FR-A4L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6296,6 +6405,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="Supply"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="I2C"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M07" device="" value="Tast"/>
+<part name="JP15" library="pinhead" deviceset="PINHD-1X1" device="" value="Batt"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6333,21 +6444,23 @@ Kabel auf Platine gelötet
 am Ende Buchse
 braun      SCL
 schwarz  SDA</text>
-<text x="-111.76" y="111.76" size="1.778" layer="91" rot="R180">I2C LCD
+<text x="-38.1" y="111.76" size="1.778" layer="91" rot="R180">I2C LCD
 4-GND
 3-5V
 2-SDA
 1-SCL</text>
-<text x="-111.76" y="86.36" size="1.778" layer="91" rot="R180">3-rot
+<text x="-40.64" y="88.9" size="1.778" layer="91" rot="R180">3-rot
 2-blau
 1-schwarz</text>
+<text x="121.92" y="12.7" size="1.778" layer="91">AnalogIn
+BattSpg</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="15.24" y="55.88"/>
 <instance part="JP2" gate="A" x="68.58" y="55.88"/>
-<instance part="JP3" gate="G$1" x="-104.14" y="83.82"/>
-<instance part="JP4" gate="G$1" x="-104.14" y="63.5"/>
-<instance part="JP5" gate="G$1" x="-104.14" y="40.64"/>
+<instance part="JP3" gate="G$1" x="-38.1" y="83.82"/>
+<instance part="JP4" gate="G$1" x="-48.26" y="63.5"/>
+<instance part="JP5" gate="G$1" x="-48.26" y="40.64"/>
 <instance part="S1_START" gate="1" x="180.34" y="106.68" rot="R270"/>
 <instance part="S2_MENU" gate="1" x="180.34" y="86.36" rot="R270"/>
 <instance part="S3_UP" gate="1" x="180.34" y="68.58" rot="R270"/>
@@ -6358,15 +6471,17 @@ schwarz  SDA</text>
 <instance part="R2" gate="G$1" x="215.9" y="73.66" rot="R90"/>
 <instance part="R3" gate="G$1" x="48.26" y="119.38"/>
 <instance part="R4" gate="G$1" x="48.26" y="129.54"/>
-<instance part="JP8" gate="G$1" x="-101.6" y="104.14"/>
+<instance part="JP8" gate="G$1" x="-30.48" y="104.14"/>
 <instance part="JP10" gate="G$1" x="116.84" y="66.04" rot="R180"/>
-<instance part="JP11" gate="G$1" x="-81.28" y="104.14"/>
-<instance part="JP12" gate="G$1" x="-83.82" y="83.82"/>
-<instance part="JP6" gate="G$1" x="-83.82" y="63.5"/>
-<instance part="JP7" gate="G$1" x="-83.82" y="40.64"/>
+<instance part="JP11" gate="G$1" x="-20.32" y="104.14"/>
+<instance part="JP12" gate="G$1" x="-30.48" y="83.82"/>
+<instance part="JP6" gate="G$1" x="-35.56" y="63.5"/>
+<instance part="JP7" gate="G$1" x="-35.56" y="40.64"/>
 <instance part="JP13" gate="G$1" x="30.48" y="142.24" rot="R270"/>
 <instance part="JP14" gate="G$1" x="58.42" y="142.24" rot="R270"/>
 <instance part="JP9" gate="G$1" x="129.54" y="66.04" rot="R180"/>
+<instance part="JP15" gate="G$1" x="114.3" y="12.7"/>
+<instance part="FRAME1" gate="G$1" x="-53.34" y="-20.32"/>
 </instances>
 <busses>
 </busses>
@@ -6483,7 +6598,6 @@ schwarz  SDA</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="-76.2" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="81.28" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="22.86" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
@@ -6494,7 +6608,7 @@ schwarz  SDA</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="-76.2" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="60.96" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="17.78" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
@@ -6505,7 +6619,6 @@ schwarz  SDA</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="-76.2" y1="38.1" x2="-27.94" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="38.1" x2="-27.94" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="15.24" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
@@ -6518,10 +6631,10 @@ schwarz  SDA</text>
 <segment>
 <wire x1="33.02" y1="66.04" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP12" gate="G$1" pin="3"/>
 <pinref part="JP2" gate="A" pin="4"/>
-<wire x1="-76.2" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="106.68" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
@@ -6532,7 +6645,7 @@ schwarz  SDA</text>
 <wire x1="43.18" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="119.38" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <junction x="38.1" y="129.54"/>
-<wire x1="-76.2" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="3"/>
 <junction x="38.1" y="106.68"/>
 <wire x1="38.1" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
@@ -6544,7 +6657,7 @@ schwarz  SDA</text>
 <junction x="38.1" y="88.9"/>
 <pinref part="JP6" gate="G$1" pin="3"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
-<wire x1="-76.2" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
 <junction x="38.1" y="119.38"/>
 <wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <junction x="38.1" y="66.04"/>
@@ -6552,7 +6665,7 @@ schwarz  SDA</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="-76.2" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="4"/>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="66.04" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
@@ -6566,14 +6679,14 @@ schwarz  SDA</text>
 <wire x1="109.22" y1="83.82" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <junction x="30.48" y="83.82"/>
 <junction x="30.48" y="109.22"/>
-<wire x1="-76.2" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="40.64" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="63.5" x2="-17.78" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="83.82" x2="-17.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="-17.78" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP12" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="83.82" x2="-17.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="83.82" x2="-17.78" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-17.78" y="63.5"/>
 <junction x="-17.78" y="83.82"/>
 <junction x="30.48" y="91.44"/>
@@ -6591,7 +6704,7 @@ schwarz  SDA</text>
 <junction x="60.96" y="101.6"/>
 <pinref part="JP11" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="119.38" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
@@ -6610,7 +6723,7 @@ schwarz  SDA</text>
 <junction x="58.42" y="129.54"/>
 <junction x="58.42" y="104.14"/>
 <pinref part="JP11" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -6674,14 +6787,24 @@ schwarz  SDA</text>
 <junction x="2.54" y="27.94"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="66.04" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="53.34" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="113,1,202.878,90.7827,LED1_START,,,,,"/>
-<approved hash="113,1,202.205,73.66,R1,,,,,"/>
+<approved hash="113,1,202.11,73.66,R1,,,,,"/>
 <approved hash="113,1,215.578,88.154,LED2_BATT_LOW,,,,,"/>
-<approved hash="113,1,214.905,73.66,R2,,,,,"/>
+<approved hash="113,1,214.81,73.66,R2,,,,,"/>
+<approved hash="113,1,111.997,14.1961,JP15,,,,,"/>
 </errors>
 </schematic>
 </drawing>

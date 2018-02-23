@@ -2601,7 +2601,6 @@ schwarz  5V</text>
 <wire x1="27.94" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="106.68" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="116.84" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="106.68" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
@@ -2616,6 +2615,8 @@ schwarz  5V</text>
 <pinref part="JP7" gate="G$1" pin="2"/>
 <pinref part="JP6" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="27.94" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">

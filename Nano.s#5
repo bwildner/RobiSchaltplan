@@ -6323,19 +6323,24 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="71.12" y="50.8" size="1.778" layer="91">A2</text>
 <text x="71.12" y="48.26" size="1.778" layer="91">A1</text>
 <text x="71.12" y="45.72" size="1.778" layer="91">A0</text>
-<text x="22.86" y="147.32" size="1.778" layer="91">zur Stromversorgung
-Kabel auf Platine gelötet
-am Ende Stecker</text>
+<text x="7.62" y="139.7" size="1.778" layer="91">Stecker
+braun     GND
+schwarz  5V</text>
 <text x="25.4" y="132.08" size="1.778" layer="91">GND</text>
 <text x="35.56" y="134.62" size="1.778" layer="91">7V !!!!</text>
-<text x="58.42" y="152.4" size="1.778" layer="91">I2C
+<text x="68.58" y="139.7" size="1.778" layer="91">I2C
 Kabel auf Platine gelötet
-am Ende Stecker</text>
+am Ende Stecker
+braun      SCL
+schwarz  SDA</text>
 <text x="-111.76" y="111.76" size="1.778" layer="91" rot="R180">I2C LCD
 4-GND
 3-5V
 2-SDA
 1-SCL</text>
+<text x="-111.76" y="86.36" size="1.778" layer="91" rot="R180">3-rot
+2-blau
+1-schwarz</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="15.24" y="55.88"/>
@@ -6509,8 +6514,10 @@ am Ende Stecker</text>
 <pinref part="JP7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$21" class="0">
 <segment>
+<wire x1="33.02" y1="66.04" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="JP13" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP12" gate="G$1" pin="3"/>
 <pinref part="JP2" gate="A" pin="4"/>
@@ -6520,7 +6527,6 @@ am Ende Stecker</text>
 <wire x1="38.1" y1="106.68" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="88.9" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="129.54" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="124.46" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
@@ -6540,14 +6546,8 @@ am Ende Stecker</text>
 <pinref part="JP7" gate="G$1" pin="3"/>
 <wire x1="-76.2" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
 <junction x="38.1" y="124.46"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="66.04" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="73.66" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<junction x="38.1" y="66.04"/>
 </segment>
 </net>
 <net name="N$22" class="0">

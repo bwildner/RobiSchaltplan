@@ -2612,9 +2612,10 @@ schwarz  5V</text>
 <junction x="27.94" y="106.68"/>
 <junction x="43.18" y="106.68"/>
 <wire x1="17.78" y1="86.36" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <junction x="17.78" y="86.36"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
