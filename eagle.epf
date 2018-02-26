@@ -6,6 +6,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/EAGLE 8.5.1/lbr/MeineBauteile.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/Adafruit-Eagle-Library-master/adafruit.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/GeekAmmo.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/LilyPad-Wearables.lbr"
@@ -27,7 +28,6 @@ UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Resisto
 UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Retired.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/SparkFun-Eagle-Libraries-master/User-Submitted.lbr"
-UsedLibrary="C:/EAGLE 8.5.1/lbr/MeineBauteile.lbr"
 
 [Win_1]
 Type="Control Panel"
