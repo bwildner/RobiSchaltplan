@@ -985,6 +985,7 @@ Low profile connectors, straight&lt;p&gt;
 <text x="68.58" y="144.78" size="1.778" layer="91">Stecker
 braun     GND
 schwarz  5V</text>
+<text x="17.78" y="55.88" size="1.778" layer="91">Level Conv</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>

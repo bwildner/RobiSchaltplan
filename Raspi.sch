@@ -2550,6 +2550,7 @@ schwarz  SDA</text>
 <text x="134.62" y="162.56" size="1.778" layer="91" rot="R180">motRechts vorw</text>
 <text x="134.62" y="160.02" size="1.778" layer="91" rot="R180">motRechts rückw</text>
 <text x="134.62" y="157.48" size="1.778" layer="91" rot="R180">motRechts PWM</text>
+<text x="-10.16" y="165.1" size="1.778" layer="91">level conv???????????</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-35.56" y="58.42"/>
