@@ -1238,6 +1238,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="JP2" library="adafruit" deviceset="PINHD-1X6" device="B"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M02" device="-JST-2MM-SMT" value="I2C"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="-JST-2MM-SMT" value="I2C"/>
+<part name="SV3" library="con-ml" deviceset="ML6" device="" value="Raspi"/>
 </parts>
 <sheets>
 <sheet>
@@ -1267,6 +1268,11 @@ Stecker
 braun      SCL
 schwarz  SDA</text>
 <text x="-73.66" y="78.74" size="1.778" layer="91">von Nano Board</text>
+<text x="25.4" y="35.56" size="1.778" layer="91">SCL</text>
+<text x="116.84" y="83.82" size="1.778" layer="91">SCL</text>
+<text x="116.84" y="86.36" size="1.778" layer="91">3.3V</text>
+<text x="93.98" y="83.82" size="1.778" layer="91">SDA</text>
+<text x="53.34" y="160.02" size="1.778" layer="91">vom Spgsregler</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-10.16"/>
@@ -1283,24 +1289,33 @@ schwarz  SDA</text>
 <instance part="JP2" gate="A" x="53.34" y="43.18" rot="R180"/>
 <instance part="JP5" gate="G$1" x="-35.56" y="73.66" rot="R90"/>
 <instance part="JP3" gate="G$1" x="-38.1" y="50.8" rot="R270"/>
+<instance part="SV3" gate="1" x="106.68" y="83.82" smashed="yes" rot="R180">
+<attribute name="VALUE" x="110.49" y="91.44" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="110.49" y="77.978" size="1.778" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="PE5" class="0">
 <segment>
-<wire x1="35.56" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="88.9" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="6"/>
+<wire x1="114.3" y1="81.28" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="1" pin="2"/>
+<wire x1="35.56" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="88.9" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PE4" class="0">
 <segment>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="109.22" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="109.22" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="30.48" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="5"/>
+<wire x1="99.06" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="3">
@@ -1317,9 +1332,7 @@ schwarz  SDA</text>
 <pinref part="SV2" gate="1" pin="5"/>
 <wire x1="5.08" y1="83.82" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="43.18" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="5.08" y="83.82"/>
 </segment>
 </net>
@@ -1397,19 +1410,30 @@ schwarz  SDA</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
-<wire x1="55.88" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="40.64" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="2"/>
+<wire x1="129.54" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="55.88" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="3"/>
+<wire x1="68.58" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="55.88" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="35.56" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="4"/>
+<wire x1="121.92" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
