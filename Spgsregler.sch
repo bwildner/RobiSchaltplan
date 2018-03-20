@@ -5442,7 +5442,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <plain>
 <text x="76.2" y="30.48" size="1.778" layer="91">MotorBoard</text>
 <text x="185.42" y="43.18" size="1.778" layer="91">AnalogIn
-BattSpg</text>
+BattSpg 
+zu Nano2</text>
 <text x="114.3" y="96.52" size="1.778" layer="91">SpgsRegler</text>
 <text x="81.28" y="25.4" size="1.778" layer="91">12V</text>
 <text x="81.28" y="22.86" size="1.778" layer="91">GND</text>
