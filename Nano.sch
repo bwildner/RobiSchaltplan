@@ -6269,56 +6269,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X01">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PINHD1">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -6405,7 +6355,6 @@ Standard A4 size frame in Landscape</description>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="Supply"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="I2C"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M07" device="" value="Tast"/>
-<part name="JP15" library="pinhead" deviceset="PINHD-1X1" device="" value="Batt"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
@@ -6452,8 +6401,6 @@ schwarz  SDA</text>
 <text x="-40.64" y="88.9" size="1.778" layer="91" rot="R180">3-rot
 2-blau
 1-schwarz</text>
-<text x="121.92" y="12.7" size="1.778" layer="91">AnalogIn
-BattSpg</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="15.24" y="55.88"/>
@@ -6480,7 +6427,6 @@ BattSpg</text>
 <instance part="JP13" gate="G$1" x="30.48" y="142.24" rot="R270"/>
 <instance part="JP14" gate="G$1" x="58.42" y="142.24" rot="R270"/>
 <instance part="JP9" gate="G$1" x="129.54" y="66.04" rot="R180"/>
-<instance part="JP15" gate="G$1" x="114.3" y="12.7"/>
 <instance part="FRAME1" gate="G$1" x="-53.34" y="-20.32"/>
 </instances>
 <busses>
@@ -6785,15 +6731,6 @@ BattSpg</text>
 <wire x1="2.54" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="50.8" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="2.54" y="27.94"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="9"/>
-<wire x1="66.04" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="53.34" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

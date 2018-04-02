@@ -1317,14 +1317,16 @@ schwarz  SDA</text>
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="22.86" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="119.38" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="1" pin="2"/>
+<wire x1="111.76" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="132.08" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="3">
 <segment>
-<wire x1="58.42" y1="104.14" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="132.08" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="104.14" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="114.3" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="104.14" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
@@ -1338,11 +1340,6 @@ schwarz  SDA</text>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="5.08" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="5.08" y="83.82"/>
-<pinref part="SV4" gate="1" pin="2"/>
-<wire x1="111.76" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="119.38" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
-<junction x="58.42" y="132.08"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1352,9 +1349,8 @@ schwarz  SDA</text>
 <wire x1="76.2" y1="43.18" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="43.18" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="139.7" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="139.7" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="3"/>
-<wire x1="60.96" y1="119.38" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="116.84" x2="2.54" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="116.84" x2="2.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
@@ -1378,10 +1374,6 @@ schwarz  SDA</text>
 <junction x="7.62" y="86.36"/>
 <wire x1="76.2" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <junction x="60.96" y="106.68"/>
-<pinref part="SV4" gate="1" pin="1"/>
-<wire x1="96.52" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="119.38" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
-<junction x="60.96" y="119.38"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1457,6 +1449,26 @@ schwarz  SDA</text>
 <net name="N$6" class="0">
 <segment>
 <wire x1="-12.7" y1="35.56" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SV4" gate="1" pin="1"/>
+<wire x1="96.52" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="119.38" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="129.54" x2="2.54" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="129.54" x2="2.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="119.38" x2="10.16" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="SV2" gate="1" pin="1"/>
+<wire x1="20.32" y1="88.9" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="88.9" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="101.6" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

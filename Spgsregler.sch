@@ -5436,6 +5436,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="F1" library="fuse" deviceset="FUSE" device="BLANK_5X20MM"/>
 <part name="F3" library="fuse" deviceset="FUSE" device="BLANK_5X20MM"/>
 <part name="SL1" library="con-amp-quick" deviceset="M02" device=""/>
+<part name="SL5" library="con-amp-quick" deviceset="M02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5452,8 +5453,8 @@ zu Nano2</text>
 <text x="134.62" y="96.52" size="1.778" layer="91" rot="R90">GND</text>
 <text x="137.16" y="96.52" size="1.778" layer="91" rot="MR90">5V</text>
 <text x="182.88" y="30.48" size="1.778" layer="91">Raspi</text>
-<text x="182.88" y="60.96" size="1.778" layer="91">Nano</text>
-<text x="182.88" y="68.58" size="1.778" layer="91">Kabel auf Platine gelötet,
+<text x="182.88" y="73.66" size="1.778" layer="91">Nano</text>
+<text x="182.88" y="83.82" size="1.778" layer="91">Kabel auf Platine gelötet,
 am Ende Buchse
 braun     GND
 schwarz  5V</text>
@@ -5470,6 +5471,7 @@ Spgsregler</text>
 <text x="149.86" y="73.66" size="1.778" layer="91" rot="MR0">1.4A</text>
 <text x="10.16" y="50.8" size="1.778" layer="91" rot="MR270">4A</text>
 <text x="182.88" y="10.16" size="1.778" layer="91">Zwischenplatine</text>
+<text x="182.88" y="60.96" size="1.778" layer="91">Nano2</text>
 </plain>
 <instances>
 <instance part="SL1_BATT" gate="G$1" x="17.78" y="25.4" rot="R180"/>
@@ -5483,13 +5485,14 @@ Spgsregler</text>
 <instance part="X5" gate="-2" x="73.66" y="22.86"/>
 <instance part="X5" gate="-3" x="73.66" y="20.32"/>
 <instance part="FRAME1" gate="G$1" x="-45.72" y="-45.72"/>
-<instance part="SL2" gate="G$1" x="175.26" y="63.5" rot="R180"/>
+<instance part="SL2" gate="G$1" x="175.26" y="71.12" rot="R180"/>
 <instance part="SL4" gate="G$1" x="175.26" y="33.02" rot="R180"/>
 <instance part="R1" gate="G$1" x="127" y="60.96" rot="R90"/>
 <instance part="R2" gate="G$1" x="127" y="30.48" rot="R90"/>
 <instance part="F1" gate="G$1" x="5.08" y="48.26" rot="R90"/>
 <instance part="F3" gate="G$1" x="147.32" y="78.74" rot="R180"/>
 <instance part="SL1" gate="G$1" x="175.26" y="12.7" rot="R180"/>
+<instance part="SL5" gate="G$1" x="175.26" y="58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5536,14 +5539,15 @@ Spgsregler</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="157.48" y1="78.74" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="63.5" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="78.74" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="71.12" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="58.42" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="33.02" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="12.7" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SL2" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<junction x="157.48" y="63.5"/>
+<wire x1="167.64" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="157.48" y="71.12"/>
 <pinref part="SL4" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
 <junction x="157.48" y="33.02"/>
@@ -5553,6 +5557,9 @@ Spgsregler</text>
 <wire x1="157.48" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 <junction x="157.48" y="12.7"/>
+<pinref part="SL5" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<junction x="157.48" y="58.42"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5567,14 +5574,15 @@ Spgsregler</text>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="5.08" x2="127" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="127" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="83.82" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="60.96" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="83.82" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="68.58" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="55.88" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="30.48" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="X4_SPGSREGLER" gate="-2" pin="S"/>
 <pinref part="SL2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="10.16" x2="134.62" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<junction x="134.62" y="60.96"/>
+<wire x1="167.64" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<junction x="134.62" y="68.58"/>
 <pinref part="SL4" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
 <junction x="134.62" y="30.48"/>
@@ -5583,6 +5591,9 @@ Spgsregler</text>
 <junction x="127" y="5.08"/>
 <wire x1="172.72" y1="10.16" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
 <junction x="134.62" y="10.16"/>
+<pinref part="SL5" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<junction x="134.62" y="55.88"/>
 </segment>
 </net>
 <net name="N$1" class="0">
